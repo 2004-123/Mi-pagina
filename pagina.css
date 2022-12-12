@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    padding: 0px;
+  
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+
+    
+}
+a{
+    text-decoration:none ;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    flex-direction: row;
+    grid-template-columns: 50px;
+    grid-template-rows: 40px;
+    font-size: 3rem;
+    font-size: 1em;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin: 0;
+    height: 85px;
+    margin-right: 10px;
+}
+header{
+    display: flex;
+    height: 70px 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #381fc0;
+    justify-content: space-between;
+    background-color: #70ce84;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+        
+    
+}
+@media screen and(max-width:640px) {
+    
+}
+
+
+
+
+#titulo{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:190px;
+    text-align: center;
+    color: hsla(237, 76%, 10%, 0.966);
+    background-image: url("imagenes/TEA200701138.webp");
+    background-size: cover;
+    background-color: rgb(219, 142, 112);
+    height: 300px;
+    width: 1000px;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center
+        
+}
+
+
+nav a{
+    
+    font-weight: 500;
+    padding-left: 80px;
+    padding-right: 1em;
+   
+
+}
+nav a:hover{
+    color: #e92045;
+}
+
+div{
+    text-align: center;
+    
+}
+div.h2{
+    text-align: center;
+    padding: 80px;
+    height: 50px;
+
+}
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+    
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-sobre-nosotros h2{
+    display: flex;
+    padding: 50px;
+    color: darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor-sobre-nosotros img{
+    width: 500px;
+    height: 500px;
+
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: chocolate;
+}
+
+.sobre-nosotros .contenido-textos{
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contenido-textos h3 span{
+    background-color: #632b35;
+    border-radius: 50%;
+    color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: #381fc0;
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio{
+    background-color: rgb(218, 90, 186);
+    text-align: center;
+    margin-top: 2rem;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: #70ce84;
+}
+.imagen-port > img{
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: mediumblue;
+    transform: scale(0);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-galeria img{
+    width: 80px;
+}
+.hover-galeria p{
+    color: #fff;
+}
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+.about-services{
+    background: #fff;
+    padding-bottom: 30px;
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+.servicio-ind img{
+    width: 90%;
+}
+.servicio-ind h3{
+    margin: 10px 0;
+}
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+
+}
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom:1px solid #ccc ;
+}
+.cont-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #2035afab;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: rgb(15, 15, 15);
+}
+.titulo.final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #33ee22;
+}
+
+
+   
+
